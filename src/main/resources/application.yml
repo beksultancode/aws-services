@@ -1,10 +1,10 @@
 aws:
   bucket:
-    access_key_id: AKIA2ODYHKQAIAKDNPJT
-    secret_access_key: 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
-    region: eu-central-1
-    name: java-temp
-    path: https://java-temp.s3.eu-central-1.amazonaws.com/
+    access_key_id: YOUR_ACCESS_KEY_ID
+    secret_access_key: YOUR_SECRET_ACCESS_KEY
+    region: YOUR_BUCKET_REGION
+    name: YOUR_BUCKET_NAME
+    path: YOUR_BUCKET_LINK
 server:
   port: 9000
   error:
