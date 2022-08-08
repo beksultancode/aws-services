@@ -1,7 +1,7 @@
 aws:
+  access_key_id: YOUR_ACCESS_KEY_ID
+  secret_access_key: YOUR_SECRET_ACCESS_KEY
   bucket:
-    access_key_id: YOUR_ACCESS_KEY_ID
-    secret_access_key: YOUR_SECRET_ACCESS_KEY
     region: YOUR_BUCKET_REGION
     name: YOUR_BUCKET_NAME
     path: YOUR_BUCKET_LINK

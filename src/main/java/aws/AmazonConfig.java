@@ -14,10 +14,10 @@ import software.amazon.awssdk.services.s3.S3Client;
 @Getter @Setter
 public class AmazonConfig {
 
-    @Value("${aws.bucket.access_key_id}")
+    @Value("${aws.access_key_id}")
     private String AWS_ACCESS_KEY_ID;
 
-    @Value("${aws.bucket.secret_access_key}")
+    @Value("${aws.secret_access_key}")
     private String AWS_SECRET_ACCESS_KEY;
 
     @Value("${aws.bucket.region}")
